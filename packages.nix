@@ -1,0 +1,38 @@
+{ pkgs, ... }: {
+  home.packages = with pkgs; [
+    ripgrep
+    bat
+    lsd
+    prettyping
+    fzf
+    yubikey-manager
+    tmux
+    topgrade
+    gnome.vinagre
+    rbw
+    tldr
+    pwgen
+    rsync
+    peek
+    mupdf
+    glow
+    slack
+    vlc
+    ncdu
+    croc
+    neovim
+    micro
+    ueberzug
+    just
+    jq
+    neomutt
+    firefox
+    oh-my-posh
+    lxappearance
+    dconf
+    gnome3.dconf-editor
+    gtk_engines
+    glibcLocales
+    lxappearance
+  ];
+}
