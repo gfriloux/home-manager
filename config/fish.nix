@@ -1,4 +1,12 @@
 { pkgs, ... }: {
+
+  home.packages = with pkgs; [
+    lsd
+    bat
+    prettyping
+    xcp
+  ];
+
   programs.fish = {
     enable = true;
     plugins = [
@@ -46,6 +54,7 @@
       ls = "lsd";
       cat = "bat";
       ping = "prettyping";
+      cp = "xcp";
     };
   };
 }
