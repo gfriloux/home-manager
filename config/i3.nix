@@ -3,6 +3,7 @@
 let mod = "Mod4"; 
 in {
   home.packages = with pkgs; [
+    alacritty
     rofi
     polybar
     scrot       # Take screenshot for i3lock
@@ -73,7 +74,7 @@ in {
     };
   };
 
-  home.file.".config/i3/lock.sh".source = ../files/i3/lock.sh;
+  home.file.".config/i3/lock.sh".source                = ../files/i3/lock.sh;
   home.file.".config/i3/lock/Jotaro.Frozen.png".source = ../files/i3/Jotaro.Frozen.png;
   home.file.".config/i3/lock/new_za_warudo.mp4".source = ../files/i3/new_za_warudo.mp4;
 }
