@@ -7,6 +7,7 @@
     ./user.nix
     ./packages.nix
     ./config/fish.nix
+    ./config/alacritty.nix
     ./config/i3.nix
   ];
 
@@ -65,12 +66,6 @@
       config = {
         theme = "Dracula";
         italic-text = "always";
-      };
-    };
-    alacritty = {
-      enable = true;
-      settings = {
-        font.size = 8;
       };
     };
   };
