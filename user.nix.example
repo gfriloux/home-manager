@@ -1,0 +1,20 @@
+{ pkgs, ... }: {
+
+  home.username = "user";
+  home.homeDirectory = "/home/user";
+
+  programs.git = {
+    enable = true;
+    userName = "Guillaume Friloux";
+    userEmail = "guillaume@friloux.me";
+
+    signing = {
+      key = "19FC69E48";
+      signByDefault = true;
+    };
+
+    delta = {
+      enable = true;
+    };
+  };
+}
