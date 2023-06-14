@@ -21,6 +21,7 @@
     micro
     ueberzug
     just
+    feh
     jq
     neomutt
     firefox
@@ -30,6 +31,6 @@
     gnome3.dconf-editor
     gtk_engines
     glibcLocales
-    lxappearance
+    imagemagick
   ];
 }
