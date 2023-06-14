@@ -1,9 +1,6 @@
 { pkgs, ... }: {
   home.packages = with pkgs; [
     ripgrep
-    bat
-    lsd
-    prettyping
     fzf
     yubikey-manager
     tmux
