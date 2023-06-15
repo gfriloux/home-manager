@@ -32,5 +32,6 @@
     gtk_engines
     glibcLocales
     imagemagick
+    gum
   ];
 }

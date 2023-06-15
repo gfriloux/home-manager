@@ -41,7 +41,7 @@
     };
 
     theme = {
-      name = "dracula";
+      name = "Dracula";
       package = pkgs.dracula-theme;
     };
 

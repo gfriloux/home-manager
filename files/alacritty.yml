@@ -1,5 +1,8 @@
 font:
-  size: 8.0
+  size: 6.0
+  normal:
+    family: Iosevka
+    style: Regular
 colors:
   primary:
     background: '#282a36'
