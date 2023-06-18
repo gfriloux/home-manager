@@ -55,6 +55,7 @@
       cat = "bat";
       ping = "prettyping";
       cp = "xcp";
+      alot = "alot -n ~/.config/notmuch/default/config";
     };
   };
 }

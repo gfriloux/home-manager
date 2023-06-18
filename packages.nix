@@ -33,5 +33,7 @@
     glibcLocales
     imagemagick
     gum
+    himalaya
+    w3m
   ];
 }
