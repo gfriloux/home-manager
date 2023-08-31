@@ -35,5 +35,7 @@
     gum
     himalaya
     w3m
+    flameshot
+    nextcloud-client
   ];
 }
