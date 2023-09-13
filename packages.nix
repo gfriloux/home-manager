@@ -1,5 +1,7 @@
 { pkgs, ... }: {
   home.packages = with pkgs; [
+    archiver
+    pistol
     atuin
     ripgrep
     fzf

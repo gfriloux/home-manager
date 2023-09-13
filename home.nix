@@ -79,6 +79,10 @@
         "image/*" = "feh.desktop";
         "video/*" = "mpv.desktop";
         "audio/*" = "vlc.desktop";
+        "application/zip" = "pistol.desktop";
+        "application/rar" = "pistol.desktop";
+        "application/7z" = "pistol.desktop";
+        "application/*tar" = "pistol.desktop";
         "text/html" = "firefox.desktop";
         "x-scheme-handler/http" = "firefox.desktop";
         "x-scheme-handler/https" = "firefox.desktop";
