@@ -49,6 +49,7 @@
       test -n "$DESK_ENV"; and . "$DESK_ENV"; or true
 
       oh-my-posh init fish | source
+      atuin init fish | source
     '';
     shellAliases = {
       ls = "lsd";

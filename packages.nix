@@ -1,5 +1,6 @@
 { pkgs, ... }: {
   home.packages = with pkgs; [
+    atuin
     ripgrep
     fzf
     yubikey-manager
@@ -37,5 +38,7 @@
     w3m
     flameshot
     nextcloud-client
+    abook
+    broot
   ];
 }

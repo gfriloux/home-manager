@@ -22,6 +22,7 @@ in {
       startup = [
         { notification = false; command = "xautolock -time 10 -detectsleep -locker ~/.config/i3/lock.sh"; }
         { notification = false; command = "nm-applet"; }
+        { notification = false; command = "blueman-applet"; }
         { notification = false; command = "picom --config ~/.config/picom/picom.conf"; }
         { notification = false; command = "~/.config/polybar/launch.sh"; }
         { notification = false; command = "flameshot"; }
@@ -30,7 +31,7 @@ in {
         "${mod}+Return" = "exec nixGL alacritty";
         "${mod}+l" = "exec ~/.config/i3/lock.sh";
         "${mod}+Shift+q" = "kill";
-        "${mod}+d" = "exec fish -c 'rofi -show drun -theme ~/.config/rofi/launchers/type-7/style-1.rasi'";
+        "${mod}+d" = "exec fish -c 'env LANG=C.UTF-8 rofi -show drun -theme ~/.config/rofi/launchers/type-7/style-1.rasi'";
       };
       bars = [];
       colors = {
