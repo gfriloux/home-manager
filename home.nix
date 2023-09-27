@@ -8,6 +8,7 @@
     ./packages.nix
     ./config/fish.nix
     ./config/alacritty.nix
+    ./config/polybar.nix
     ./config/i3.nix
   ];
 
