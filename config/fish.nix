@@ -50,6 +50,7 @@
 
       oh-my-posh init fish | source
       atuin init fish | source
+      cat /home/$USER/.config/env_secrets | source
     '';
     shellAliases = {
       ls = "lsd";

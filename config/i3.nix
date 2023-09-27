@@ -5,7 +5,6 @@ in {
   home.packages = with pkgs; [
     alacritty
     rofi
-    polybar
     scrot       # Take screenshot for i3lock
     #i3lock
     mpv         # For my i3lock script

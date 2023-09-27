@@ -1,5 +1,6 @@
 { pkgs, ... }: {
   home.packages = with pkgs; [
+    zfxtop
     archiver
     pistol
     atuin
@@ -42,5 +43,6 @@
     nextcloud-client
     abook
     broot
+    git-workspace
   ];
 }
